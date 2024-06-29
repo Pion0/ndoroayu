@@ -1,0 +1,107 @@
+.boh .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    place-content: center;
+}
+
+.grid img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+.a,.ab {
+height: 400px;
+width: 100%;
+background-color: red;
+border-radius: 10px;
+}
+.a h2 , .ab h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+.a .selamat , h2,h1 {
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.img {
+    display: block;
+    align-items: center;
+    margin: auto;
+    place-content: center;
+    border: solid black;
+    height: 50%;
+    width: 100%;
+}
+
+.img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+@keyframes example {
+    0% {
+        top: 0px;
+        bottom: 0px;
+    }
+
+    25% {
+        bottom: 200px;
+
+    }
+
+    50% {
+        top: 200px;
+    }
+
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+/* media queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+/* Mhobile Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
