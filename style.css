@@ -8,16 +8,30 @@
     width: 100%;
 }
 
+.abc .selamat1 {
+    text-align: center;
+    place-items: center;
+    font-size: 4em;
+    position: center;
+    animation: none;
+}
 
-
-
+.abc {
+    height: 800px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 10px;
+    animation-fill-mode: none;
+    animation: example duration timing-function delay iteration-count direction none;
+    
+    }
 
 
 
 .a,.ab {
-height: 400px;
+height: 800px;
 width: 100%;
-background-color: red;
+background-color:pink;
 border-radius: 10px;
 }
 .a h2 , .ab h1{
@@ -27,7 +41,7 @@ border-radius: 10px;
 
 
 
-.a .selamat , h2,h1 {
+.a .selamat , h2,h1{
     text-align: center;
     font-size: 4em;
     position: relative;
